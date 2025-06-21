@@ -51,7 +51,7 @@ const Hero = () => {
           </Col>
           <Col lg={6} className="text-center">
             <img 
-              src="src/assets/rohan_biju.jpg" 
+              src="./src/assets/rohan_biju.jpg" 
               alt="Rohan Biju" 
               className="profile-img-large"
               data-aos="zoom-in"
