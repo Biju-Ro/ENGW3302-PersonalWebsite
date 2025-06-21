@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button, Card } from 'react-bootstrap'
-import resumePdf from './assets/RohanBiju_Resume_NEU.pdf'
+import resumePdf from 'src/assets/RohanBiju_Resume_NEU.pdf'
 
 const Resume = () => {
   return (
