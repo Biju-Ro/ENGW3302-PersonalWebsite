@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
+import rohanImage from '/src/assets/rohan_biju.jpg'
 
 const Hero = () => {
   const [text, setText] = useState('')
@@ -50,7 +51,7 @@ const Hero = () => {
           </Col>
           <Col lg={6} className="text-center">
             <img 
-              src="/rohan_biju.jpg" 
+              src={rohanImage} 
               alt="Rohan Biju" 
               className="profile-img-large"
               data-aos="zoom-in"
