@@ -13,7 +13,6 @@ const Hero = () => {
       index++
       if (index > fullText.length) {
         clearInterval(timer)
-    
         setTimeout(() => setShowCursor(false), 1000)
       }
     }, 150) 
@@ -51,7 +50,7 @@ const Hero = () => {
           </Col>
           <Col lg={6} className="text-center">
             <img 
-              src="./src/assets/rohan_biju.jpg" 
+              src="/rohan_biju.jpg" 
               alt="Rohan Biju" 
               className="profile-img-large"
               data-aos="zoom-in"
