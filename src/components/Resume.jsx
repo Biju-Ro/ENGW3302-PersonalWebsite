@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button, Card } from 'react-bootstrap'
+import resumePdf from './assets/RohanBiju_Resume_NEU.pdf'
 
 const Resume = () => {
   return (
@@ -21,7 +22,7 @@ const Resume = () => {
               <Button 
                 variant="primary" 
                 size="lg" 
-                href="src/assets/RohanBiju_Resume_NEU.pdf" 
+                href={resumePdf} 
                 target="_blank"
                 data-aos="zoom-in"
                 className="pulse me-3"
@@ -32,7 +33,7 @@ const Resume = () => {
               <Button 
                 variant="outline-primary" 
                 size="lg" 
-                href="src/assets/RohanBiju_Resume_NEU.pdf" 
+                href={resumePdf} 
                 target="_blank"
                 data-aos="zoom-in"
                 data-aos-delay="100"
@@ -47,10 +48,9 @@ const Resume = () => {
           <Col lg={10} className="mx-auto">
             <Card className="shadow-lg" data-aos="fade-up" data-aos-delay="200">
               <Card.Body className="p-0">
-                {/* PDF Viewer */}
                 <div style={{ height: '800px', width: '100%' }}>
                   <iframe
-                    src="src/assets/RohanBiju_Resume_NEU.pdf"
+                    src={resumePdf}
                     width="100%"
                     height="100%"
                     style={{ border: 'none', borderRadius: '15px' }}
@@ -58,7 +58,7 @@ const Resume = () => {
                   >
                     <p>
                       Your browser does not support PDFs. 
-                      <a href="src/assets/RohanBiju_Resume_NEU.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href={resumePdf} target="_blank" rel="noopener noreferrer">
                         Download the PDF
                       </a>
                     </p>
