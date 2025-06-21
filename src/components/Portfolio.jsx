@@ -4,21 +4,21 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 const Portfolio = () => {
   const portfolioItems = [
     {
-      title: "Writing Sample 1",
-      description: "Description of your writing piece or article.",
-      link: "#",
+      title: "Right to Repair Article",
+      description: "An in-depth analysis of the right to repair movement and its impact on consumer rights and technology sustainability.",
+      link: "/src/assets/Final_PublicWriting.pdf", 
       type: "Writing"
     },
     {
-      title: "Presentation 1",
-      description: "Description of your presentation or talk.",
-      link: "#",
-      type: "Presentation"
+      title: "Literary Analysis of the Role of AI in Film",
+      description: "A comprehensive examination of how artificial intelligence is portrayed and utilized in contemporary cinema.",
+      link: "#", // This should be replaced with your actual article link
+      type: "Writing"
     },
     {
-      title: "Project Sample",
-      description: "Description of a relevant project or work sample.",
-      link: "#",
+      title: "Meme Marketing",
+      description: "Exploring the evolution and effectiveness of meme-based marketing strategies in digital communications.",
+      link: "https://en.wikipedia.org/wiki/Meme_marketing",
       type: "Project"
     }
   ]
