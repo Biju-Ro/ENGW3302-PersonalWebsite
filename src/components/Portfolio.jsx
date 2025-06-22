@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       title: "Right to Repair Article",
       description: "An in-depth analysis of the right to repair movement and its impact on consumer rights and technology sustainability.",
-      link: "/src/assets/Final_PublicWriting.pdf", 
+      src: "/src/assets/Final_PublicWriting.pdf", 
       type: "Writing"
     },
     {
