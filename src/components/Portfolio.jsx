@@ -6,13 +6,13 @@ const Portfolio = () => {
     {
       title: "Right to Repair Article",
       description: "An in-depth analysis of the right to repair movement and its impact on consumer rights and technology sustainability.",
-      link: "src/assets/Final_PublicWriting.pdf",
+      link: "/src/assets/Final_PublicWriting.pdf",
       type: "Writing"
     },
     {
       title: "Literary Analysis of the Role of AI in Film",
       description: "A comprehensive examination of how artificial intelligence is portrayed and utilized in contemporary cinema.",
-      link: "src/assets/ai_film.pdf",
+      link: "/src/assets/ai_film.pdf",
       type: "Writing"
     },
     {
