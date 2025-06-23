@@ -5,6 +5,10 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
+import Timeline from './components/Timeline'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './styles/custom.css'
+import 'aos/dist/aos.css'
 import Footer from './components/Footer'
 
 function App() {
@@ -21,6 +25,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Timeline />
       <Resume />
       <Portfolio />
       <Footer />
