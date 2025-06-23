@@ -6,13 +6,13 @@ const Portfolio = () => {
     {
       title: "Right to Repair Article",
       description: "An in-depth analysis of the right to repair movement and its impact on consumer rights and technology sustainability.",
-      src: "/src/assets/Final_PublicWriting.pdf", 
+      link: "src/assets/Final_PublicWriting.pdf",
       type: "Writing"
     },
     {
       title: "Literary Analysis of the Role of AI in Film",
       description: "A comprehensive examination of how artificial intelligence is portrayed and utilized in contemporary cinema.",
-      link: "#", // This should be replaced with your actual article link
+      link: "src/assets/ai_film.pdf",
       type: "Writing"
     },
     {
@@ -22,6 +22,14 @@ const Portfolio = () => {
       type: "Project"
     }
   ]
+
+  const handlePDFView = (link, title) => {
+    if (link.endsWith('.pdf')) {
+      window.open(link, '_blank')
+    } else {
+      window.open(link, '_blank')
+    }
+  }
 
   return (
     <section id="portfolio" className="section-padding bg-light">
@@ -52,8 +60,8 @@ const Portfolio = () => {
                   <p className="flex-grow-1">{item.description}</p>
                   <Button 
                     variant="outline-primary" 
-                    href={item.link}
-                    target="_blank"
+                    onClick={() => handlePDFView(item.link, item.title)}
+                    style={{ cursor: 'pointer' }}
                   >
                     View {item.type}
                   </Button>
