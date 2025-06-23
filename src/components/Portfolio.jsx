@@ -6,13 +6,13 @@ const Portfolio = () => {
     {
       title: "Right to Repair Article",
       description: "An in-depth analysis of the right to repair movement and its impact on consumer rights and technology sustainability.",
-      link: "/src/assets/Final_PublicWriting.pdf",
+      link: "https://drive.google.com/file/d/1_mxWfFSDVaKaZAcjdmDdR4zEUSPPJ6gX/view?usp=sharing",
       type: "Writing"
     },
     {
       title: "Literary Analysis of the Role of AI in Film",
       description: "A comprehensive examination of how artificial intelligence is portrayed and utilized in contemporary cinema.",
-      link: "/src/assets/ai_film.pdf",
+      link: "https://drive.google.com/file/d/15MhS0tw-mt9PkOSjgzkAt41gNhkIA5i-/view?usp=sharing",
       type: "Writing"
     },
     {
@@ -24,11 +24,7 @@ const Portfolio = () => {
   ]
 
   const handlePDFView = (link, title) => {
-    if (link.endsWith('.pdf')) {
-      window.open(link, '_blank')
-    } else {
-      window.open(link, '_blank')
-    }
+    window.open(link, '_blank')
   }
 
   return (
